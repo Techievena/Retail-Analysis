@@ -1,0 +1,15 @@
+> @/all a quick update about upcoming events, most of which you can join remotely or in person to your liking:
+
+- later **today** we'll have a live interview at [FLOSSWEEKLY](https://twit.tv/shows/floss-weekly) (12:30pm Eastern / 9:30am Pacific / 17:30 UTC)
+- on thursday we'll have a [series of talks](coala.io/romania) about Open Source, GSoC, etc. in Bucharest - you can join remotely at coala.io/romania
+- on the weekend we'll have a huge hackathon in bucharest. If you could be around and help *especially reviewing* that will help us a lot. We're expecting >50 people and this won't be too easy but very rewarding.
+
+Upcoming events:
+
+- Pre-FOSDEM Hackathon: We'll have a three day hackathon in our coala AirBnB right before FOSDEM starting on feb. 1st. - this'll be awesome! Come and join in!
+- [FOSDEM](https://fosdem.org/2017/) in brussels on 4. and 5. february - we'll have a stand! Please come if you get the chance, we're always undermanned with all the interest in coala.
+
+dt<-c()
+for (i in 1:length(finaldata)){
+	
+}

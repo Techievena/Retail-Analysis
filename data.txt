@@ -1,0 +1,29 @@
+Problem Statement 2: Retail Analytics, Deadline - 15/12/2016
+
+Data Attributes:
+1. Date: Date of sale
+2. Customer code: Code has been assigned to every customer
+3. Item code: Code has been assigned to every item
+4. No of units: No of units sold for every item
+
+#Note:
+#Some of the cells in 'Date' and 'Customer code' are blank. The values in these cells is same as in preceding cells.
+
+Questions:
+1. We need to predict who can be the potential customer (customer code) in the coming week
+2. What is the item code he is likely to purchase
+3. What is the number of units he is likely to purchase
+
+We need to predict these values for:
+1. next 7 days
+2. next 14 days
+
+Input:
+Data file will be in Excel / CSV format as seen in the attachment.
+
+Output:
+Excel / CSV file with the customer code, item code and no of units he is likely to purchase.
+
+Machine learning algorithm needs to be build which will learn on itself. Any deviation of predicted values from the actual values should be learning for the code and its next prediction should happen after this learning. In short predicted values should converge to actual values.
+
+Kindly document every aspect of the code / algorithm in a separate word document.
