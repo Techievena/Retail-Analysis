@@ -1,6 +1,7 @@
 setwd("~/R/Working Directory/Retail-Analysis")
 library(data.table)
 library(plyr)
+library(forecast)
 traindata<-read.csv("Training dataset.csv")
 testdata<-read.csv("Testing dataset.csv")
 
@@ -25,5 +26,3 @@ tsdiag(arima(time_series_unit, order = c(0,1,1)))
 #Adding an AR term corrects for mild under-differencing, while adding an MA term corrects for mild overdifferencing.
 
 plot(forecast(arima(time_series_unit, order = c(0,1,1)),h=7))
-
-train_time_series_unit<-time
