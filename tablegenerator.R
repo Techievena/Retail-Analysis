@@ -1,6 +1,8 @@
 setwd("~/R/Working Directory/Retail-Analysis")
 library(data.table)
 library(plyr)
+library(dplyr)
+library(reshape2)
 library(xts)
 library(ggplot2)
 inputtable<-read.csv("Retail Analytics.csv")
